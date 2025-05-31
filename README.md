@@ -1,15 +1,63 @@
-# React + Vite
+# Playlist de Exercícios React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Aplicação React para montar uma playlist personalizada de exercícios físicos. Permite buscar exercícios, visualizar vídeos e informações, adicionar/remover da playlist e manter o progresso salvo no navegador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Busca em tempo real por nome de exercício  
+- Exibição de vídeos do YouTube embutidos  
+- Visualização de informações úteis (grupo muscular, instruções, dicas)  
+- Adição e remoção de exercícios da playlist  
+- Persistência da playlist no `localStorage` para manter entre sessões
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# playlist-exercicios
-# playlist-exercicios
-# playlist-exercicios
+## Tecnologias
+
+- React.js  
+- CSS tradicional com efeitos de vidro (glassmorphism)  
+- YouTube embed para vídeos  
+- LocalStorage para persistência local
+
+## Estrutura do Projeto
+
+/fitness-playlist
+|-- /src
+|-- /components
+|-- SearchBar.jsx
+|-- SearchBar.css
+|-- ExerciseCard.jsx
+|-- ExerciseCard.css
+|-- /data
+|-- exercises.json
+|-- App.jsx
+|-- index.css
+|-- main.jsx
+
+
+## Como Rodar
+
+1. Clone o repositório  
+2. Instale dependências: `npm install` ou `yarn`  
+3. Rode o projeto: `npm run dev` (com Vite)  
+4. Acesse `http://localhost:3000` no navegador  
+
+## Próximos Passos
+
+- Filtragem por grupo muscular  
+- Reordenação da playlist via drag and drop  
+- Salvamento e carregamento de playlists customizadas  
+- Melhorias de UI/UX e responsividade  
+- Possível integração com backend para compartilhamento
+
+---
+
+Qualquer dúvida ou sugestão, abra uma issue ou entre em contato!
+
+---
+
+## Contato
+
+Anderson Leandro :)
+https://github.com/andwanted/
+
