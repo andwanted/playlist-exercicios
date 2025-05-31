@@ -1,0 +1,41 @@
+.glass-container {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  color: #222;
+  margin: 1rem 0;
+  max-width: 480px;
+}
+
+.exercise-info {
+  margin-top: 0.75rem;
+}
+
+.exercise-info h3 {
+  margin-bottom: 0.25rem;
+}
+
+.exercise-info p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.remove-btn {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #cc0000;
+}

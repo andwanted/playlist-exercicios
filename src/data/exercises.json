@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Remada Curvada",
+    "muscleGroup": "costas",
+    "videoId": "dQw4w9WgXcQ",
+    "instructions": "Mantenha a coluna neutra durante o movimento.",
+    "tips": "Evite usar momentum para puxar o peso."
+  },
+  {
+    "id": 2,
+    "name": "Rosca Bíceps",
+    "muscleGroup": "bíceps",
+    "videoId": "Qz2rs4aRba4",
+    "instructions": "Flexione os cotovelos sem balançar o corpo.",
+    "tips": "Use carga moderada para manter a forma."
+  }
+
+]
