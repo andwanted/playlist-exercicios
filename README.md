@@ -1,48 +1,58 @@
-# App de Playlist de Exercícios com React
+# 🎯 Playlist de Exercícios Personalizados
 
-Este projeto é um aplicativo web para montar playlists personalizadas de exercícios físicos, facilitando a organização e visualização dos treinos.
+Bem-vindo ao **Playlist de Exercícios Personalizados**!  
+Um app web para você visualizar, montar e gerenciar sua lista de exercícios de forma simples, bonita e responsiva.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
-- Seleção de grupos musculares via dropdown.
-- Escolha de exercícios dentro do grupo selecionado.
-- Adição temporária de exercícios para montar playlist.
-- Finalização e exibição da playlist final, com possibilidade de remoção.
-- Dados dos exercícios carregados via JSON externo.
-- Planejado suporte a vídeos do YouTube para cada exercício.
+✅ Visualização de cards de exercícios, com:
+- Nome do exercício
+- Grupo muscular
+- Músculo principal
+- Resumo e instruções detalhadas
+- Vídeo explicativo integrado
 
-## Tecnologias Utilizadas
+✅ Remover exercícios da playlist  
+✅ Efeitos visuais modernos (Glassmorphism)  
+✅ Responsividade para diferentes tamanhos de tela
 
-- React (com Hooks: useState)
-- JSON para dados dos exercícios
-- HTML/CSS inline para estilo simples e direto
+## 📦 Tecnologias Utilizadas
 
-## Como usar
+- **React.js**
+- **CSS puro (Glassmorphism, Flexbox, Responsivo)**
+- Estrutura modular de componentes
 
-1. Escolha um grupo muscular no primeiro dropdown.
-2. Selecione um exercício no segundo dropdown.
-3. Clique em "Adicionar Exercício" para incluir na lista temporária.
-4. Repita para adicionar quantos quiser.
-5. Clique em "Finalizar Playlist" para salvar e visualizar a playlist completa.
-6. Remova exercícios da playlist se desejar.
+## 📂 Estrutura de Componentes
 
-## Estrutura do Projeto
+- `App.js`: Componente raiz
+- `ExerciseCard.js`: Card individual de cada exercício
+- `PlaylistFinal.js`: Lista final de exercícios
+- `GlassContainer.js`: Container de estilo especial para destaques
+- `Searchbar.js`: Busca de exercícios
 
-- `src/App.js`: componente principal com toda a lógica e UI.
-- `data/exercicios.json`: arquivo com dados dos exercícios.
-- `public/index.html`: ponto de entrada padrão do React.
+## 🎨 Estilo
 
-## Próximos passos
+- Cores e fundos com efeito **glassmorphism**
+- Textos claros e contraste ajustado
+- Layout flexível e adaptado para celular e desktop
 
-- Implementar player de vídeo para exibir os exercícios.
-- Salvar playlists localmente ou no backend.
-- Melhorar design e responsividade.
-- Adicionar testes automatizados.
+## 📈 Roadmap
 
-## Autor
+- [x] Estrutura inicial de componentes
+- [x] Estilização com CSS
+- [x] Glassmorphism e responsividade
+- [ ] Ajuste de contraste e cores finais
+- [ ] Melhorias de usabilidade e animações
+- [ ] Refatoração do código final
+- [ ] Documentação finalizada
 
-Seu nome ou contato aqui.
+## 👥 Colaboração
+
+Este projeto está aberto para contribuições!  
+Sugestões e melhorias são bem-vindas.
 
 ---
 
-Aproveite seu treino com organização e foco!
+## 📝 Autor
+
+Feito com 💙 por [Seu Nome Aqui]
