@@ -1,84 +1,48 @@
-# 🏋️‍♂️ Gerador de Playlist de Treinos
+# App de Playlist de Exercícios com React
 
-Um app em React para criar playlists de treino personalizadas.  
-Selecione o grupo muscular, escolha os exercícios, adicione-os ao quadro temporário, e gere sua playlist final!
+Este projeto é um aplicativo web para montar playlists personalizadas de exercícios físicos, facilitando a organização e visualização dos treinos.
 
-## 📦 Estrutura do Projeto
+## Funcionalidades
 
-src/
-components/
-TemporaryBoard.jsx
-PlaylistFinal.jsx
-data/
-exercises.json
-App.jsx
-main.jsx
+- Seleção de grupos musculares via dropdown.
+- Escolha de exercícios dentro do grupo selecionado.
+- Adição temporária de exercícios para montar playlist.
+- Finalização e exibição da playlist final, com possibilidade de remoção.
+- Dados dos exercícios carregados via JSON externo.
+- Planejado suporte a vídeos do YouTube para cada exercício.
 
+## Tecnologias Utilizadas
 
-## 🚀 Funcionalidades
+- React (com Hooks: useState)
+- JSON para dados dos exercícios
+- HTML/CSS inline para estilo simples e direto
 
-✅ Selecionar grupo muscular via dropdown.  
-✅ Filtrar exercícios disponíveis.  
-✅ Adicionar exercícios ao quadro temporário sem permitir duplicados.  
-✅ Remover exercícios do quadro temporário.  
-✅ Gerar a playlist final.
+## Como usar
 
-## 🛠️ Tecnologias Utilizadas
+1. Escolha um grupo muscular no primeiro dropdown.
+2. Selecione um exercício no segundo dropdown.
+3. Clique em "Adicionar Exercício" para incluir na lista temporária.
+4. Repita para adicionar quantos quiser.
+5. Clique em "Finalizar Playlist" para salvar e visualizar a playlist completa.
+6. Remova exercícios da playlist se desejar.
 
-- React
-- Vite
-- Tailwind CSS (opcional, para estilização)
+## Estrutura do Projeto
 
-## 📂 Dados de Exercícios
+- `src/App.js`: componente principal com toda a lógica e UI.
+- `data/exercicios.json`: arquivo com dados dos exercícios.
+- `public/index.html`: ponto de entrada padrão do React.
 
-O arquivo `data/exercises.json` contém os dados dos exercícios no seguinte formato:
+## Próximos passos
 
-```json
-[
-  { "nome": "Agachamento", "grupo": "Pernas" },
-  { "nome": "Supino Reto", "grupo": "Peito" },
-  { "nome": "Remada Curvada", "grupo": "Costas" }
-]
-```
+- Implementar player de vídeo para exibir os exercícios.
+- Salvar playlists localmente ou no backend.
+- Melhorar design e responsividade.
+- Adicionar testes automatizados.
 
-💡 Próximos Passos
-Melhorar o layout e UX com Tailwind e ícones.
+## Autor
 
-Adicionar campo de busca para facilitar a seleção.
+Seu nome ou contato aqui.
 
-Botão "Limpar tudo" para reiniciar a seleção.
+---
 
-Reordenar a lista temporária com drag-and-drop (futuro).
-
-Adicionar mensagens amigáveis quando o quadro ou a playlist estiverem vazios.
-
-Testar responsividade e UX em diferentes dispositivos.
-
-Documentar com imagens e GIFs no README.
-
-💻 Como Rodar o Projeto
-Clone o repositório:
-
-
-Editar
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-Instale as dependências:
-
-
-Editar
-npm install
-Rode o projeto:
-
-bash
-Copiar
-Editar
-npm run dev
-Abra no navegador:
-http://localhost:5173
-
-🤝 Contribuições
-Sinta-se à vontade para contribuir com melhorias ou sugerir novos recursos!
-
-
-
+Aproveite seu treino com organização e foco!
